@@ -1,0 +1,33 @@
+Relations Categories
+
+We have extracted 9 relations to form proper meanings between the entities. We define 3 symmetric relation types such as Coreference_Of, Conjunction, Synonym_Of , and 6 asymmetric relation types such as, Caused_By, Helps_In, Includes, Originated_From, Used_For, Seasonal.
+
+– Caused_By: A is caused by B, any relation where B is causing A, so, A is caused by B.
+Ex: industrial activities are major causes of contaminating the soils.
+
+– Coreference_Of: Two entities that refer to the same concept.
+Ex: Climate change will produce swings... due to changing climate patterns.
+
+– Conjunction: Entities sharing similar role.
+Ex: The review suggests a robust economic model or multidisciplinary approach be adopted... 
+
+
+– Helps_In: A helps in ... B, A has potential to ... B, any relation where A is helping B.
+Ex: biomass harvesting has the greatest potential to ... soil productivity.
+
+– Includes: A includes B, A (B, B) is ..., A contains B.
+Ex: Agricultural contaminants include organic and inorganic fertilizers... 
+Silvi-Pasture (trees + fodder crops).
+
+– Originated_From: A originated from B, A is mainly located in B.
+Ex: oil palm is mainly originated from West Africa, Asia.
+
+– Synonym_Of: any short form of their respective full form. This relation ties both entities as their synonym. A (B), so, B is a synonym of A and vice versa.
+Ex: Nitrogen (N) is very benefitial...
+
+– Used_For: A is used for B, A is based on B, any entity A, that is used for entity B.
+Ex: Phosphorus is widely used in crop production. 
+using linear mixed models to compare mean differences of microclimate measurements.
+
+– Seasonal: A is mainly available on B season, any two entities share seasonal relationship.
+Ex: Mango is a summer seasonal fruit.
