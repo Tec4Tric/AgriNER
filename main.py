@@ -24,7 +24,9 @@ outut = train(train_data, test_data)
 '''  Open terminal in the same working directory, and run the following code, one by one. '''
 ''' python -m spacy init fill-config ./AgriNer/conf_files/base_config.cfg ./AgriNer/conf_files/config.cfg '''
 ''' python -m spacy train ./AgriNer/conf_files/config.cfg --output ./AgriNer/AgriNer_Code --paths.train ./AgriNer/AgriNer_Code/train.spacy --paths.dev ./AgriNer/AgriNer_Code/train.spacy '''
-model_path = "/home/raj/NLP-Code/Test/NLP/NEW/model-last"
+
+
+model_path = "give the location of either model-best or model-last, which you will get after running the above commands in terminal"
 pred_output = predict(model_path, test_data)
 validate = validate(pred_output)
 
