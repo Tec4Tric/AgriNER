@@ -19,7 +19,7 @@ Ex: biomass harvesting has the greatest potential to ... soil productivity.
 Ex: Agricultural contaminants include organic and inorganic fertilizers... 
 Silvi-Pasture (trees + fodder crops).
 
-– Originated_From: A originated from B, A is mainly located in B.
+– Origin_Of: A originated in B, A is mainly located in B.
 Ex: oil palm is mainly originated from West Africa, Asia.
 
 – Synonym_Of: any short form of their respective full form. This relation ties both entities as their synonym. A (B), so, B is a synonym of A and vice versa.
